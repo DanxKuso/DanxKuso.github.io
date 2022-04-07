@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    font: 23px Georgia, serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(172, 11, 11);
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+p{
+    margin-bottom: 3px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.about{
+    position:relative;
+    border:3px solid gray;
+    height:500px;
+    width:700px;
+    left:calc(50% - 350px);
+    margin-top:100px;
+    border-radius:10%;
+    background-color: rgba(255, 214, 221, 0.911);
+}
+
+.center1,.center2{
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+}
+
+.center3{
+    display: flex;
+    justify-content: center;
+}
+img{
+    display:block;
+    position:relative;
+    border-radius: 50%;
+    height:155px;
+    width:155px;
+    border:5px solid palevioletred;
+}
+
+#about_me{
+    list-style-type:none;
+}
+
+#about_me li{
+    margin-bottom:15px;
+}
+
+#Insta a{
+    position:relative;
+    padding-top: 30px;
+    font-size: 20px;
+    border:3px solid gray;
+    width: 270px;
+    height:90px;
+    display: flex;
+    justify-content: center;
+    left:calc(50% - 280px);
+    margin-top:40px;
+    color:palevioletred;
+    background-color: rgba(255, 255, 255, 0.432);
+    float:left;
+}
+
+#Insta a:hover,#Pinterest a:hover,#Spotify a:hover{
+    color:white;
+    background-color: pink;
+}
+
+#Pinterest a{
+    position:relative;
+    padding-top: 30px;
+    font-size: 20px;
+    border:3px solid gray;
+    width: 270px;
+    height:90px;
+    display: flex;
+    justify-content: center;
+    left:calc(50% - 250px);
+    margin-top:40px;
+    color:palevioletred;
+    background-color: rgba(255, 255, 255, 0.432);
+}
+
+#Spotify a{
+    position:relative;
+    padding-top: 30px;
+    font-size: 20px;
+    border:3px solid gray;
+    width: 270px;
+    height:90px;
+    display: flex;
+    justify-content: center;
+    left:calc(50% - 130px);
+    margin-top:20px;
+    color:palevioletred;
+    background-color: rgba(255, 255, 255, 0.432);
+}
+
+#Mail p{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color:rgba(255, 0, 85, 0.342);
+}
